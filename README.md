@@ -2,7 +2,13 @@
 
 Dashboard de **carteira de empréstimos**, desenvolvido no **Power BI Desktop**, com design de referência editável no **Figma** e dados fictícios para portfólio.
 
-![Dashboard renderizado no Power BI Desktop](docs/imagens/dashboard-powerbi.png)
+## Dashboard interativo
+
+### [▶ Acessar dashboard interativo no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODY2NTE5NGMtZTYzZi00NDRmLWI4YjMtMTY5ZDIwNzBjZDQ1IiwidCI6IjdiNzZjYWM5LTBkYTQtNGNmZC1hZWY1LWEyNDgyNDI5NmYyMiJ9)
+
+Explore o relatório online e teste os filtros de modalidade e segmento.
+
+[![Dashboard renderizado no Power BI Desktop](docs/imagens/dashboard-powerbi.png)](https://app.powerbi.com/view?r=eyJrIjoiODY2NTE5NGMtZTYzZi00NDRmLWI4YjMtMTY5ZDIwNzBjZDQ1IiwidCI6IjdiNzZjYWM5LTBkYTQtNGNmZC1hZWY1LWEyNDgyNDI5NmYyMiJ9)
 
 ## Objetivo
 
@@ -75,7 +81,7 @@ O filtro de segmento chega aos empréstimos pelas relações entre clientes e co
 4. Use o [guia de reprodução](docs/reproducao.md) para importar as tabelas da planilha padronizada e criar as views esperadas pelo modelo.
 5. Informe suas próprias credenciais no Power BI Desktop e atualize os dados. Se usar outro servidor, porta ou nome de banco, ajuste as consultas no Power Query.
 
-O GitHub apresenta os arquivos e as imagens do projeto; a navegação interativa do relatório ocorre no Power BI Desktop. O cache de dados e as credenciais locais não são versionados, portanto é necessário carregar a fonte ao abrir o projeto em outro computador.
+O GitHub apresenta os arquivos e a documentação do projeto. Para explorar o relatório no navegador, use o link público do Power BI no início deste README. Para editar ou reproduzir o projeto localmente, use o Power BI Desktop; o cache de dados e as credenciais locais não são versionados, portanto é necessário carregar a fonte ao abrir o projeto em outro computador.
 
 ## Design
 
