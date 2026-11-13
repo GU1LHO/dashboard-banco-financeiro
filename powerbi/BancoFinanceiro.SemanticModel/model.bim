@@ -1,0 +1,2048 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"public vw_clientes\",\"public vw_contas\",\"public vw_emprestimos\",\"public vw_transacoes\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "public_vw_clientes.segmento": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public vw_clientes",
+                    "ConceptualProperty": "segmento"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Segmento": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "public_vw_contas.contratos_em_atraso": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public vw_contas",
+                    "ConceptualProperty": "Contratos em Atraso"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Contratos em Atraso": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Em atraso": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "public_vw_contas.contratos_em_atraso1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public vw_contas",
+                    "ConceptualProperty": "% Contratos em Atraso"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% atraso": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "% Contratos em Atraso": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "% de contratos em atraso": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "public_vw_contas.detalhe_contratos_em_atraso": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public vw_contas",
+                    "ConceptualProperty": "Detalhe Contratos em Atraso"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Detalhe Contratos em Atraso": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "public_vw_contas.nota_concentração_veículo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public vw_contas",
+                    "ConceptualProperty": "Nota Concentração Veículo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Nota Concentração Veículo": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "public_vw_contas.principal_contratado_mi": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public vw_contas",
+                    "ConceptualProperty": "Principal Contratado (mi)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Principal Contratado (mi)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Principal contratado": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "public_vw_contas.total_contratos": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public vw_contas",
+                    "ConceptualProperty": "Total Contratos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Total Contratos": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Contratos": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Total de contratos": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "public_vw_emprestimos.tipo_emprestimo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public vw_emprestimos",
+                    "ConceptualProperty": "tipo_emprestimo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Modalidade": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "58a4debc-6f7e-4ca7-8dcb-6d17ffb1af66",
+        "fromColumn": "data_cadastro",
+        "fromTable": "public vw_clientes",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_8bccac6a-aa72-4509-9512-18e276615dec"
+      },
+      {
+        "name": "16437021-359a-46f7-832c-b5f757787a12",
+        "fromColumn": "data_abertura",
+        "fromTable": "public vw_contas",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_cf1e3aac-6121-4703-8382-20fb6080e61d"
+      },
+      {
+        "name": "ba12a3c0-7720-4043-8199-32245852ea24",
+        "fromColumn": "data_contratacao",
+        "fromTable": "public vw_emprestimos",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_1927f629-6703-48a4-b96f-544c2f029a2c"
+      },
+      {
+        "name": "b2a92286-72b5-4a22-b12c-642815b511ef",
+        "fromColumn": "data_transacao",
+        "fromTable": "public vw_transacoes",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_b9682fcc-50e1-45fd-a4d5-3fae273439e9"
+      },
+      {
+        "name": "AutoDetected_c2009112-bdf7-4935-a8a1-273317acd68b",
+        "fromColumn": "id_cliente",
+        "fromTable": "public vw_contas",
+        "toColumn": "id_cliente",
+        "toTable": "public vw_clientes"
+      },
+      {
+        "name": "AutoDetected_0ab29790-694e-4a6d-a66b-ce77fdbcf4b6",
+        "fromColumn": "id_conta",
+        "fromTable": "public vw_emprestimos",
+        "toColumn": "id_conta",
+        "toTable": "public vw_contas"
+      },
+      {
+        "name": "AutoDetected_ba850349-40f1-4729-9fd1-5470e2a3368a",
+        "fromColumn": "id_conta",
+        "fromTable": "public vw_transacoes",
+        "toColumn": "id_conta",
+        "toTable": "public vw_contas"
+      }
+    ],
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "public vw_clientes",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_cliente",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a5f896a2-625f-42b3-8dd9-002ae3e01345",
+            "sourceColumn": "id_cliente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cidade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1286528b-fdd8-4656-b809-29fbc56e3665",
+            "sourceColumn": "cidade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "uf",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "86e3777e-6925-4825-a378-4fc0ab16f7fd",
+            "sourceColumn": "uf",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "faixa_etaria",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "77e31e83-1b92-4653-bc32-1aa631a52f84",
+            "sourceColumn": "faixa_etaria",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "segmento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "be4014b1-2083-4c3d-832b-86fb267a5f59",
+            "sourceColumn": "segmento",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "data_cadastro",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "8428e497-8414-43dd-b6b0-d7530dde3dad",
+            "sourceColumn": "data_cadastro",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variação",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_8bccac6a-aa72-4509-9512-18e276615dec"
+                },
+                "isDefault": true,
+                "relationship": "58a4debc-6f7e-4ca7-8dcb-6d17ffb1af66"
+              }
+            ]
+          }
+        ],
+        "lineageTag": "e4764519-bc5f-43d2-badc-dfdce1193ad9",
+        "partitions": [
+          {
+            "name": "public vw_clientes",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = PostgreSQL.Database(\"localhost:5432\", \"banco_financeiro\"),",
+                "    public_vw_clientes = Fonte{[Schema=\"public\",Item=\"vw_clientes\"]}[Data]",
+                "in",
+                "    public_vw_clientes"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_edd47aee-768e-40bb-a5b8-ac603b8ec27a",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "4c36ab34-413a-48e1-902a-3b638ca7d10c",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "27ad040a-fbaf-4089-93f9-648b16d63d89",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "3749e221-8597-4bb8-b1a4-9b02b2b96f4d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "10a22a19-791c-4ff2-9153-c12cce6c8b4f",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "ae05b0aa-5386-4288-93a4-21b5c9c2a4af",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "5537a681-bd47-47c4-bf92-3021eb05fb2d",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "52912267-707d-4a9e-87b0-1e3f14a4ad35",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "5212c81f-dc83-4f78-b553-82e3ccdf3d68",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "6f1bb3ae-3a67-408c-b497-c6afbfe1df7b",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "fb0299bb-5563-45bc-a75e-b7eb8dc6989f",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "a116c799-36ab-4071-b24e-cd9e2e473678",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "af3ef9f5-9645-4372-83e6-cf2df5a83382"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "cb91690b-7eee-411e-a27e-558b468eab26",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_edd47aee-768e-40bb-a5b8-ac603b8ec27a",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_8bccac6a-aa72-4509-9512-18e276615dec",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "039f25bc-f5d7-4023-a83c-80896832c43c",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "958c48a6-6f44-4e64-8e7d-82e685a3fb62",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "f80cbda1-9336-47be-8e31-eb4d32036054",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "548affb5-51ca-4e94-a23a-1d1ccc8cbeab",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "2ac13cfb-e80c-428e-bf7b-73e4aaf287f5",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "902a915f-ab42-4212-8e6b-735d8e9e3e66",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "42a1220f-f9ac-4741-8d3c-50391a8107e8",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "1104d06d-5594-4ccb-acca-cb9a52527305",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "d9a6edbd-b048-4f13-b656-b251ddb1e3cc",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "a7614bcf-bbf7-4ffa-b868-866ec3207061",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "490e015e-4c23-4f60-9eba-e977616243b3",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "31c003c8-c336-4b23-8fd4-78c49180d33a"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "2c88b549-f592-454d-8c50-9fcc53fd71c8",
+        "partitions": [
+          {
+            "name": "LocalDateTable_8bccac6a-aa72-4509-9512-18e276615dec",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('public vw_clientes'[data_cadastro])), 1, 1), Date(Year(MAX('public vw_clientes'[data_cadastro])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "public vw_contas",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_conta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d1c30297-0e7e-4d12-ac72-841347632266",
+            "sourceColumn": "id_conta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_cliente",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9c824abd-d705-4e0c-9687-fbd1adef60e5",
+            "sourceColumn": "id_cliente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo_conta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "86c1d202-f098-458c-9453-809a9749ef61",
+            "sourceColumn": "tipo_conta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "data_abertura",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "8cbea1e9-3964-4689-a6d9-04e3758c146c",
+            "sourceColumn": "data_abertura",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variação",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_cf1e3aac-6121-4703-8382-20fb6080e61d"
+                },
+                "isDefault": true,
+                "relationship": "16437021-359a-46f7-832c-b5f757787a12"
+              }
+            ]
+          },
+          {
+            "name": "saldo_inicial_brl",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "3a4b074f-8152-4240-a337-6486e110910a",
+            "sourceColumn": "saldo_inicial_brl",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "saldo_final_brl",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "9a547c09-8a38-4581-8b0b-6105d2c157f3",
+            "sourceColumn": "saldo_final_brl",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "3f61b391-b749-4709-b8eb-7b9f08373146",
+        "measures": [
+          {
+            "name": "Total Contratos",
+            "expression": [
+              "",
+              "DISTINCTCOUNT('public vw_emprestimos'[id_emprestimo])"
+            ],
+            "formatString": "0",
+            "lineageTag": "aab7033c-d33f-4202-9341-e8b434c29b23"
+          },
+          {
+            "name": "Principal Contratado",
+            "expression": [
+              "",
+              "SUM('public vw_emprestimos'[principal_brl])"
+            ],
+            "formatString": "\"R$ \"#,0.00",
+            "lineageTag": "4dd8106c-1a04-49c2-a124-68c5c58b8ddc"
+          },
+          {
+            "name": "Contratos em Atraso",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [Total Contratos],",
+              "    'public vw_emprestimos'[status_contrato] = \"Em atraso\"",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "0b80afab-b802-494c-990e-0f2ec42aa408"
+          },
+          {
+            "name": "% Contratos em Atraso",
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    [Contratos em Atraso],",
+              "    [Total Contratos],",
+              "    0",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "4ca1b7a8-593a-4298-ade2-537539a449f6"
+          },
+          {
+            "name": "Principal de Contratos em Atraso",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [Principal Contratado],",
+              "    'public vw_emprestimos'[status_contrato] = \"Em atraso\"",
+              ")"
+            ],
+            "formatString": "\"R$ \"#,0.00",
+            "lineageTag": "0bbadee4-fa1c-464c-9105-e3526fe0e5a4"
+          },
+          {
+            "name": "% Principal de Contratos em Atraso",
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    [Principal de Contratos em Atraso],",
+              "    [Principal Contratado],",
+              "    0",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "277c4678-dbe0-46af-8b5c-5aeb5cb2fb26"
+          },
+          {
+            "name": "Principal Medio por Contrato",
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    [Principal Contratado],",
+              "    [Total Contratos],",
+              "    0",
+              ")"
+            ],
+            "formatString": "\"R$ \"#,0.00",
+            "lineageTag": "931ce8ca-fa5a-4137-aad6-4676eb696184"
+          },
+          {
+            "name": "Principal Contratado (mi)",
+            "displayFolder": "Dashboard",
+            "expression": "DIVIDE([Principal Contratado], 1000000)",
+            "formatString": "\"R$ \"0.00\" mi\"",
+            "lineageTag": "da28cca9-e8eb-4c6a-a856-add713e36ce3"
+          },
+          {
+            "name": "Detalhe Contratos em Atraso",
+            "displayFolder": "Dashboard",
+            "expression": "FORMAT([Contratos em Atraso], \"0\") & \" de \" & FORMAT([Total Contratos], \"0\") & \" contratos\"",
+            "lineageTag": "67599b61-13d4-4b02-ace5-41c1d13914cd"
+          },
+          {
+            "name": "Participação Veículo",
+            "displayFolder": "Dashboard",
+            "expression": "DIVIDE(CALCULATE([Principal Contratado], KEEPFILTERS('public vw_emprestimos'[tipo_emprestimo] = \"Veículo\")), CALCULATE([Principal Contratado], ALLSELECTED('public vw_emprestimos'[tipo_emprestimo])))",
+            "formatString": "0.00%",
+            "lineageTag": "59fc1b42-390e-424d-a62f-dbdea17c77f5"
+          },
+          {
+            "name": "Nota Concentração Veículo",
+            "displayFolder": "Dashboard",
+            "expression": "\"Veículo concentra \" & FORMAT([Participação Veículo], \"0.00%\") & \" do principal\"",
+            "lineageTag": "5db0192f-ec44-4c99-9145-666b955d3e33"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "public vw_contas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = PostgreSQL.Database(\"localhost:5432\", \"banco_financeiro\"),",
+                "    public_vw_contas = Fonte{[Schema=\"public\",Item=\"vw_contas\"]}[Data]",
+                "in",
+                "    public_vw_contas"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_cf1e3aac-6121-4703-8382-20fb6080e61d",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "30819c95-5888-4a9f-a9b0-8b22d3df1eae",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "5bb2dc12-1f95-4d8e-a549-be503fdf8e04",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "27192c4b-e2ff-44a9-b8ec-6dbb8f8c48ee",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "6c08ee5c-422a-432f-8d14-8363b88f4524",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "bbb97010-3886-4f94-b935-c03709bab09d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "061ea8c1-ac7e-466b-abc7-0b0c2cbdbac1",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "5dad4f7a-ffef-493b-bdc3-5265439601cd",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "9d834a6d-6201-41cf-8b81-586773fbdd48",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "67d7d033-6add-44bc-9aee-7842d46f4163",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "a81fad73-5230-4d2f-bda2-8f3eb9a675ce",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "4378440d-7807-48ac-b80e-bf257a87df7b",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "68406037-d515-4c5a-a28a-cfb33242799e"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "c1105090-bb14-4d0e-b915-5684b4226df1",
+        "partitions": [
+          {
+            "name": "LocalDateTable_cf1e3aac-6121-4703-8382-20fb6080e61d",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('public vw_contas'[data_abertura])), 1, 1), Date(Year(MAX('public vw_contas'[data_abertura])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "public vw_emprestimos",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_emprestimo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3df71833-0f89-41b5-a477-ff3d6891584d",
+            "sourceColumn": "id_emprestimo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_conta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1e75db0f-ebb8-4ecc-99f5-3824e5e35dcf",
+            "sourceColumn": "id_conta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "data_contratacao",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "feddbc90-981c-4d01-b437-5d608c7f89fb",
+            "sourceColumn": "data_contratacao",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variação",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_1927f629-6703-48a4-b96f-544c2f029a2c"
+                },
+                "isDefault": true,
+                "relationship": "ba12a3c0-7720-4043-8199-32245852ea24"
+              }
+            ]
+          },
+          {
+            "name": "tipo_emprestimo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "adc2a3ba-cda4-4103-8807-230d38b76704",
+            "sourceColumn": "tipo_emprestimo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "principal_brl",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "e28335f4-8f2f-4cca-9ab3-83bb590e2e36",
+            "sourceColumn": "principal_brl",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "taxa_mensal",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "5481dc1e-9120-4857-9d6d-d78b4936f108",
+            "sourceColumn": "taxa_mensal",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "prazo_meses",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "560825fe-050b-42f0-89c2-3fc95c70b6b4",
+            "sourceColumn": "prazo_meses",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "status_contrato",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b388b8f3-3b7c-41c2-8c1c-21faf3e3d7b4",
+            "sourceColumn": "status_contrato",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "indicador_atraso",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9b0e8518-e463-4025-b27d-e7db9caa18b7",
+            "sourceColumn": "indicador_atraso",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "08ac53ff-c87d-4843-b6ac-15e42a346e3c",
+        "partitions": [
+          {
+            "name": "public vw_emprestimos",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = PostgreSQL.Database(\"localhost:5432\", \"banco_financeiro\"),",
+                "    public_vw_emprestimos = Fonte{[Schema=\"public\",Item=\"vw_emprestimos\"]}[Data]",
+                "in",
+                "    public_vw_emprestimos"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_1927f629-6703-48a4-b96f-544c2f029a2c",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "123a2ef0-4e6f-49e2-a004-1edefafc5fe5",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "e1df96dc-e6ad-4156-a203-89c6004b4c6b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "3f8f1b89-94d1-4b9c-b896-9f9a78962e8d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "c9896a35-fea8-4f42-9300-d92d0b161a13",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "06f010a0-aff7-4f28-9ad5-8597de76fab7",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "a60273b2-7cad-432a-bb3f-c0ac18fa9cb1",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "8b2af7e3-15cc-422d-820b-d2d1c91d9e09",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "ecdd64bf-c270-4c7c-a744-96a0fdad7181",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "6752a984-26d6-466c-806d-f5941dcba3ed",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "f8715fad-08b5-46c6-b8cb-a45d9d472706",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "958f7bc6-e7f5-48c0-ab26-2e0337c203dc",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "f171855b-4cb9-4dfd-a970-8806ba697f44"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "ea413452-5982-4927-8807-322262b4347d",
+        "partitions": [
+          {
+            "name": "LocalDateTable_1927f629-6703-48a4-b96f-544c2f029a2c",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('public vw_emprestimos'[data_contratacao])), 1, 1), Date(Year(MAX('public vw_emprestimos'[data_contratacao])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "public vw_transacoes",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_transacao",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1ae01287-d05a-42b5-aa1a-004fbbb22bb9",
+            "sourceColumn": "id_transacao",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_conta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a7b2dafd-761a-4371-9875-ef323b6a5759",
+            "sourceColumn": "id_conta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "data_transacao",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "fd45aea9-42d2-4e60-b553-674bd8b586dc",
+            "sourceColumn": "data_transacao",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variação",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_b9682fcc-50e1-45fd-a4d5-3fae273439e9"
+                },
+                "isDefault": true,
+                "relationship": "b2a92286-72b5-4a22-b12c-642815b511ef"
+              }
+            ]
+          },
+          {
+            "name": "tipo_transacao",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1ca39a05-2a46-4179-9ad4-6e9981ca9b96",
+            "sourceColumn": "tipo_transacao",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "natureza",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e81b0fc8-e8e0-4bd8-9a39-b88c8945871b",
+            "sourceColumn": "natureza",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "canal",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9230e25b-51f6-4961-a433-d24c143c6004",
+            "sourceColumn": "canal",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "valor_brl",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "c98fba56-7179-4f56-9bad-a911cbd65a83",
+            "sourceColumn": "valor_brl",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "valor_assinado_brl",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "cdbc544c-9776-4dbc-b3a0-e7043d0e80d8",
+            "sourceColumn": "valor_assinado_brl",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "f3094d75-00e7-4b1d-a90d-ffe443a0497e",
+        "partitions": [
+          {
+            "name": "public vw_transacoes",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = PostgreSQL.Database(\"localhost:5432\", \"banco_financeiro\"),",
+                "    public_vw_transacoes = Fonte{[Schema=\"public\",Item=\"vw_transacoes\"]}[Data]",
+                "in",
+                "    public_vw_transacoes"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_b9682fcc-50e1-45fd-a4d5-3fae273439e9",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "da300b7f-53d0-4032-9c29-5b45935b05c8",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "cb8403ef-a0ce-4b56-8223-3b11de4a69ef",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "13b96405-19f2-4783-a69e-a78d50d87c2e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "d7874346-b28d-4e9d-861c-6c80ace34591",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "b582d023-94cb-4ffa-a875-6288806b895d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "ff609537-3d4c-4893-ab4c-1ce75e51746d",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "4a800b8c-061e-4992-8be2-cc674d36b544",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "d6606441-016a-47d6-944b-8a4ee8359bae",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "4b32b340-3252-4e01-ba9d-e441d953981a",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "f32fa76c-1145-4e3f-baf6-82ffa1c6142c",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "fac1b304-9daf-4ba2-99a1-f1b8f070b59b",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "5ca0cc2d-c30b-47fe-9eff-9b5cce3bbbc6"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "efc0c366-7e2b-4506-b6fc-4ada55d16300",
+        "partitions": [
+          {
+            "name": "LocalDateTable_b9682fcc-50e1-45fd-a4d5-3fae273439e9",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('public vw_transacoes'[data_transacao])), 1, 1), Date(Year(MAX('public vw_transacoes'[data_transacao])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ],
+    "valueFilterBehavior": "independent"
+  }
+}

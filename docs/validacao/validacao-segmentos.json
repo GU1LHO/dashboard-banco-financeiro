@@ -1,0 +1,20 @@
+[
+  {
+    "public vw_clientes[segmento]": "Varejo",
+    "[Contratos]": 129,
+    "[Em atraso]": 14,
+    "[Percentual]": 0.10852713178294573
+  },
+  {
+    "public vw_clientes[segmento]": "Estilo",
+    "[Contratos]": 85,
+    "[Em atraso]": 15,
+    "[Percentual]": 0.17647058823529413
+  },
+  {
+    "public vw_clientes[segmento]": "Alta renda",
+    "[Contratos]": 66,
+    "[Em atraso]": 14,
+    "[Percentual]": 0.21212121212121213
+  }
+]

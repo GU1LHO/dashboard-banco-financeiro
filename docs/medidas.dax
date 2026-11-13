@@ -1,0 +1,61 @@
+// Tabela: public vw_contas
+Total Contratos =
+DISTINCTCOUNT('public vw_emprestimos'[id_emprestimo])
+
+// Tabela: public vw_contas
+Principal Contratado =
+SUM('public vw_emprestimos'[principal_brl])
+
+// Tabela: public vw_contas
+Contratos em Atraso =
+CALCULATE(
+    [Total Contratos],
+    'public vw_emprestimos'[status_contrato] = "Em atraso"
+)
+
+// Tabela: public vw_contas
+% Contratos em Atraso =
+DIVIDE(
+    [Contratos em Atraso],
+    [Total Contratos],
+    0
+)
+
+// Tabela: public vw_contas
+Principal de Contratos em Atraso =
+CALCULATE(
+    [Principal Contratado],
+    'public vw_emprestimos'[status_contrato] = "Em atraso"
+)
+
+// Tabela: public vw_contas
+% Principal de Contratos em Atraso =
+DIVIDE(
+    [Principal de Contratos em Atraso],
+    [Principal Contratado],
+    0
+)
+
+// Tabela: public vw_contas
+Principal Medio por Contrato =
+DIVIDE(
+    [Principal Contratado],
+    [Total Contratos],
+    0
+)
+
+// Tabela: public vw_contas
+Principal Contratado (mi) =
+DIVIDE([Principal Contratado], 1000000)
+
+// Tabela: public vw_contas
+Detalhe Contratos em Atraso =
+FORMAT([Contratos em Atraso], "0") & " de " & FORMAT([Total Contratos], "0") & " contratos"
+
+// Tabela: public vw_contas
+Participação Veículo =
+DIVIDE(CALCULATE([Principal Contratado], KEEPFILTERS('public vw_emprestimos'[tipo_emprestimo] = "Veículo")), CALCULATE([Principal Contratado], ALLSELECTED('public vw_emprestimos'[tipo_emprestimo])))
+
+// Tabela: public vw_contas
+Nota Concentração Veículo =
+"Veículo concentra " & FORMAT([Participação Veículo], "0.00%") & " do principal"

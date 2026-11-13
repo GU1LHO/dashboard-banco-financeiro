@@ -1,0 +1,23 @@
+[
+  {
+    "public vw_emprestimos[tipo_emprestimo]": "Consignado",
+    "[Contratos]": 99,
+    "[Principal]": 1102304.25,
+    "[Em atraso]": 12,
+    "[Percentual]": 0.12121212121212122
+  },
+  {
+    "public vw_emprestimos[tipo_emprestimo]": "Pessoal",
+    "[Contratos]": 91,
+    "[Principal]": 999615.56,
+    "[Em atraso]": 18,
+    "[Percentual]": 0.1978021978021978
+  },
+  {
+    "public vw_emprestimos[tipo_emprestimo]": "Veículo",
+    "[Contratos]": 90,
+    "[Principal]": 4508840.01,
+    "[Em atraso]": 13,
+    "[Percentual]": 0.14444444444444443
+  }
+]

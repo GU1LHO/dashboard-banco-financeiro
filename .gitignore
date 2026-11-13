@@ -1,0 +1,24 @@
+# Cache e configurações locais do Power BI
+**/.pbi/
+**/.pbipcache/
+**/localSettings.json
+**/editorSettings.json
+*.abf
+*.pbix
+*.pbit
+
+# Credenciais e ambiente
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+
+# Temporários e CSVs gerados a partir da planilha
+~$*
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+dados/csv/
