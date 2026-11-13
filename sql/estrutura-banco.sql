@@ -2,6 +2,7 @@
 -- Gere antes os quatro CSVs com scripts/exportar-csv.ps1.
 -- Interrompe em caso de erro. Não apaga nem substitui tabelas existentes.
 \set ON_ERROR_STOP on
+\encoding UTF8
 BEGIN;
 
 CREATE TABLE public.clientes (
