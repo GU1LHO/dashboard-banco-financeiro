@@ -34,8 +34,6 @@ Acompanhar a distribuição do principal contratado e dos contratos em atraso, c
    Comparar Veículo, Consignado e Pessoal usando o total de contratos de cada modalidade como denominador.
 5. **Como a proporção de contratos em atraso varia entre os segmentos de clientes?**  
    Comparar Alta renda, Estilo e Varejo, considerando a quantidade de contratos de cada segmento.
-6. **Como os indicadores mudam ao combinar filtros de modalidade e segmento?**  
-   Explorar recortes da carteira e identificar grupos que merecem investigação complementar, observando tanto as quantidades quanto os percentuais.
 
 As perguntas têm caráter descritivo. O principal contratado representa o valor original dos contratos, sem medir saldo devedor, valores vencidos ou perdas. O percentual de atraso é calculado por quantidade de contratos; as comparações não demonstram as causas dos atrasos nem medem, por si só, o risco de crédito dos clientes.
 
