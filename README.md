@@ -48,16 +48,6 @@ As perguntas têm caráter descritivo. O principal contratado representa o valor
 
 O principal é o **valor original dos contratos**. Ele não representa saldo devedor, parcelas vencidas nem perdas. O percentual de atraso usa a quantidade de contratos, não o valor financeiro.
 
-## Análises disponíveis
-
-- Principal contratado por modalidade: Veículo, Consignado e Pessoal.
-- Percentual de contratos em atraso dentro de cada modalidade.
-- Percentual de contratos em atraso dentro de cada segmento: Alta renda, Estilo e Varejo.
-- Tabela comparativa com total de contratos, contratos em atraso e percentual de atraso.
-- Dicas de ferramenta com detalhes dos contratos e nota dinâmica de concentração em Veículo.
-
-Na base de referência, Veículo concentra **68,20% do principal**. Pessoal apresenta a maior proporção de contratos em atraso entre as modalidades (**19,78%**). São observações descritivas sobre uma base fictícia, não conclusões causais.
-
 ## Dados e etapa de padronização
 
 Os dois datasets estão incluídos no repositório:
