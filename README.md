@@ -126,6 +126,6 @@ sql/
 
 Power BI Desktop, DAX, Power Query (M), PostgreSQL, Excel e Figma. Projeto desenvolvido com apoio de ferramentas de IA para estruturação do relatório, design e documentação; os resultados foram conferidos no modelo.
 
-**Autor:** [GU1LHO](https://github.com/GU1LHO)
+**Autor:** [Guilherme F. Santos · GU1LHO](https://github.com/GU1LHO)
 
 **Dados inteiramente fictícios**, destinados a estudo e demonstração de habilidades de análise e visualização.
