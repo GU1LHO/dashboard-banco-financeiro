@@ -10,9 +10,34 @@ Explore o relatório online e teste os filtros de modalidade e segmento.
 
 [![Dashboard renderizado no Power BI Desktop](docs/imagens/dashboard-powerbi.png)](https://app.powerbi.com/view?r=eyJrIjoiODY2NTE5NGMtZTYzZi00NDRmLWI4YjMtMTY5ZDIwNzBjZDQ1IiwidCI6IjdiNzZjYWM5LTBkYTQtNGNmZC1hZWY1LWEyNDgyNDI5NmYyMiJ9)
 
-## Objetivo
+## Contexto do negócio
+
+O projeto simula o cenário de uma instituição financeira que oferece empréstimos nas modalidades Veículo, Consignado e Pessoal para clientes dos segmentos Alta renda, Estilo e Varejo. Nesse cenário, a gestão da carteira precisa entender como o valor original contratado está distribuído e em quais grupos há maior proporção de contratos classificados como em atraso.
+
+A necessidade de negócio é reunir uma visão da composição da carteira e da ocorrência de atrasos para apoiar o acompanhamento gerencial e direcionar investigações mais detalhadas. Comparar quantidades e percentuais permite distinguir grupos com maior volume de contratos daqueles com maior proporção de atraso, enquanto a distribuição do principal evidencia a concentração do valor contratado por modalidade.
+
+Esse contexto orienta um estudo de portfólio com **dados fictícios**. O recorte apresentado contempla empréstimos contratados em **2025** e não constitui um diagnóstico de uma instituição real.
+
+## Objetivo da análise
 
 Acompanhar a distribuição do principal contratado e dos contratos em atraso, com comparação por modalidade de empréstimo e segmento de clientes. A página considera contratações de **2025** e possui filtros interativos de **modalidade** e **segmento**.
+
+## Perguntas de negócio
+
+1. **Qual é o principal contratado e quantos contratos compõem o recorte analisado?**  
+   Dimensionar o valor original contratado e o volume de contratos, considerando os filtros selecionados.
+2. **Como o principal contratado está distribuído entre as modalidades de empréstimo?**  
+   Identificar quais modalidades concentram a maior parcela do valor original dos contratos.
+3. **Quantos contratos estão em atraso e qual é sua participação no total?**  
+   Acompanhar a quantidade e o percentual de contratos classificados como em atraso no recorte selecionado.
+4. **Qual modalidade apresenta a maior proporção de contratos em atraso?**  
+   Comparar Veículo, Consignado e Pessoal usando o total de contratos de cada modalidade como denominador.
+5. **Como a proporção de contratos em atraso varia entre os segmentos de clientes?**  
+   Comparar Alta renda, Estilo e Varejo, considerando a quantidade de contratos de cada segmento.
+6. **Como os indicadores mudam ao combinar filtros de modalidade e segmento?**  
+   Explorar recortes da carteira e identificar grupos que merecem investigação complementar, observando tanto as quantidades quanto os percentuais.
+
+As perguntas têm caráter descritivo. O principal contratado representa o valor original dos contratos, sem medir saldo devedor, valores vencidos ou perdas. O percentual de atraso é calculado por quantidade de contratos; as comparações não demonstram as causas dos atrasos nem medem, por si só, o risco de crédito dos clientes.
 
 ## Indicadores
 
